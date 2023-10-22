@@ -1,0 +1,30 @@
+Sportsmans:
+
+Sportsman № 1
+First name: fdgfdghfg
+Second name: sdgfhfdh
+Last name: dags
+Amount of achievements: 3453
+
+
+Lecturers:
+
+Lecturer № 1
+First name: fdgfd
+Second name: gfjh
+Last name: sads
+Amount of achievements: 4564
+Amount of scientific articles: 79
+
+
+Trainers:
+
+Trainer № 1
+First name: fgfd
+Second name: fdgdfg
+Last name: sad
+Amount of achievements: 34
+Amount of scientific articles: 56
+Amount of students: 67
+
+
