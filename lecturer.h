@@ -12,4 +12,5 @@ class lecturer : public sportsman
 
     int getAmountOfScientificArticles();
 
+    void exportToFile(ofstream &fout, string path);
 };

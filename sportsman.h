@@ -1,5 +1,6 @@
 #pragma once
 #include<iostream>
+#include<fstream>
 using namespace std;
 
 class sportsman
@@ -11,6 +12,9 @@ class sportsman
 
     public:
     sportsman(int achievementAmount, string firstName, string secondName, string lastName);
+
+    void recieveAchievment();
+
     void setFirstName(string firstName);
     void setSecondName(string secondName);
     void setLastName(string lastName);
@@ -20,4 +24,7 @@ class sportsman
     string getSecondName();
     string getLastName();
     int getAchievmentAmount();
+
+    void exportToFile(ofstream &fout,string path);
+    void exportToFile(string path);
 };

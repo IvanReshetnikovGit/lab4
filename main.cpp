@@ -114,7 +114,14 @@ int main()
         }
         else if(choice == 7)
         {
-            exportInfo(Sportsmans,Lecturers,Trainers);
+            // exportInfo(Sportsmans,Lecturers,Trainers);
+            ofstream fout;
+            string path = "Data.txt";
+            for (size_t i = 0; i < Trainers.size(); i++)
+            {
+                Trainers[i].exportToFile(fout,path);
+            }
+            
         }
         else if(choice == 8)
             break;

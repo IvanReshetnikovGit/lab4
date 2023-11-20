@@ -12,4 +12,5 @@ class trainer : public lecturer
     void setAmountOfStudents(int amountOfStudents);
     
     int getAmountOfStudents();
+    void exportToFile(ofstream &fout, string path);
 };

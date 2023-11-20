@@ -17,3 +17,10 @@ int trainer::getAmountOfStudents()
 {
     return amountOfStudents;
 }
+void trainer::exportToFile(ofstream &fout,string path)
+{
+    lecturer::exportToFile(fout,path);
+    fout.open(path);
+    fout<<"Amount of students: "<<amountOfStudents<<endl;
+    fout.close();
+}

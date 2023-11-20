@@ -5,7 +5,6 @@ sportsman::sportsman(int achievementAmount, string firstName, string secondName,
     
 }
 
-
 void sportsman::setFirstName(string firstName)
 {
     this->firstName = firstName;
@@ -42,4 +41,19 @@ string sportsman::getLastName()
 int sportsman::getAchievmentAmount()
 {
     return achievementAmount;
+}
+
+void sportsman::exportToFile(ofstream &fout, string path)
+{
+    fout.open(path);
+    fout<<"First name: "<<firstName<<endl;
+    fout<<"Second name: "<<secondName<<endl;
+    fout<<"Last name: "<<lastName<<endl;
+    fout<<"Amount of achievements: "<<achievementAmount<<endl;
+    fout.close();
+}
+void sportsman::exportToFile(string path)
+{
+    ofstream fout; 
+    exportToFile(fout, path);
 }

@@ -1,30 +1,21 @@
 Sportsmans:
 
 Sportsman № 1
-First name: fdgfdghfg
-Second name: sdgfhfdh
-Last name: dags
-Amount of achievements: 3453
+First name: Vladislave
+Second name: Stasive
+Last name: Yaroslavovoch
+Amount of achievements: 5
 
 
 Lecturers:
 
 Lecturer № 1
-First name: fdgfd
-Second name: gfjh
-Last name: sads
-Amount of achievements: 4564
-Amount of scientific articles: 79
+First name: dsfgfhd
+Second name: hgdfher
+Last name: dsgf
+Amount of achievements: 45
+Amount of scientific articles: 12
 
 
-Trainers:
-
-Trainer № 1
-First name: fgfd
-Second name: fdgdfg
-Last name: sad
-Amount of achievements: 34
-Amount of scientific articles: 56
-Amount of students: 67
-
+No Trainers
 

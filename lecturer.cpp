@@ -16,3 +16,11 @@ int lecturer::getAmountOfScientificArticles()
 {
     return amountOfScientificArticles;
 }
+
+void lecturer::exportToFile(ofstream &fout,string path)
+{
+    sportsman::exportToFile(fout,path);
+    fout.open(path);
+    fout<<"Amount of scientific articles: "<<amountOfScientificArticles<<endl;
+    fout.close();
+}

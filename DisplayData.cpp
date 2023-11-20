@@ -7,11 +7,13 @@ void DisplaySportsmanData(sportsman Sportsman)
     cout<<"Last name: "<<Sportsman.getLastName()<<endl;
     cout<<"Amount of achievements: "<<Sportsman.getAchievmentAmount()<<endl;
 }
+
 void DisplayLecturerData(lecturer Lecturer)
 {
     DisplaySportsmanData(Lecturer);
     cout<<"Amount of scientific articles: "<<Lecturer.getAmountOfScientificArticles()<<endl;
 }
+
 void DisplayTrainerData(trainer Trainer)
 {
     DisplayLecturerData(Trainer);
